@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Log4j2 Configuration for ParaBank Automation Framework
+    - Console: INFO level — concise output during local runs
+    - File: DEBUG level — full details for CI/CD log analysis
+    - Rolling file: capped at 10MB, 5 backup files
+-->
+<Configuration status="WARN" monitorInterval="30">
+
+    <Appenders>
+        <!-- Console appender with color-coded log levels -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %c{1} - %msg%n"/>
+        </Console>
+
+        <!-- Rolling file appender — rotates at 10MB, keeps 5 backups -->
+        <RollingFile
+            name="FileAppender"
+            fileName="test-output/logs/automation.log"
+            filePattern="test-output/logs/automation-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %c{1.} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Framework package: DEBUG to file, INFO to console -->
+        <Logger name="com.parabank" level="DEBUG" additivity="false">
+            <AppenderRef ref="ConsoleAppender" level="INFO"/>
+            <AppenderRef ref="FileAppender"    level="DEBUG"/>
+        </Logger>
+
+        <!-- Selenium/WebDriver: only WARN and above to reduce noise -->
+        <Logger name="org.openqa.selenium" level="WARN" additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+
+        <!-- Root logger catchall -->
+        <Root level="INFO">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

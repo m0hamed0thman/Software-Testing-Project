@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2d594de-af1d-4d2a-a9fd-5461cfe64040" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankAutomationTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3D2xiWgiu4c3aeRbILG2ryB7GlQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.ChromeTest.checkGoogleTitle.executor": "Run",
+    "TestNG.ChromeTest.executor": "Run",
+    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.LoginTest.testSuccessfulLogin.executor": "Run",
+    "TestNG.ParaBankAutomationTest.checkGoogleTitle.executor": "Run",
+    "TestNG.RegistrationTest.executor": "Run",
+    "TestNG.RegistrationTest.testSuccessfulRegistration.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/o_o/IdeaProjects/Software-Testing-Project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginTest.testSuccessfulLogin">
+    <configuration name="LoginTest.testLoginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginWithInvalidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.RegistrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.testSuccessfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.RegistrationTest" />
+      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
+        <item itemvalue="TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.RegistrationTest.testSuccessfulRegistration" />
+        <item itemvalue="TestNG.LoginTest.testLoginWithInvalidCredentials" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2d594de-af1d-4d2a-a9fd-5461cfe64040" name="Changes" comment="" />
+      <created>1777494099835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777494099835</updated>
+      <workItem from="1777494101042" duration="2320000" />
+      <workItem from="1777545466298" duration="47000" />
+      <workItem from="1777578963252" duration="1313000" />
+      <workItem from="1777580401724" duration="2016000" />
+      <workItem from="1777647903247" duration="3862000" />
+      <workItem from="1777766490040" duration="16000" />
+      <workItem from="1777803679558" duration="12308000" />
+      <workItem from="1777901712377" duration="9906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

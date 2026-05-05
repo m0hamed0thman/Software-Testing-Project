@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    ParaBank Test Automation Suite
+    Organized by module, mirroring the manual test scenarios in the Excel file.
+    Run all: mvn clean test
+    Run single module: mvn test -Dgroups="login"
+-->
+<suite name="ParaBank Full Regression Suite" parallel="none" verbose="1">
+
+    <!-- TS_01: Login / Logout Module -->
+    <test name="Login Tests">
+        <groups>
+            <run>
+                <include name="login"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- TS_02: Registration Module -->
+    <test name="Registration Tests">
+        <groups>
+            <run>
+                <include name="registration"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <!-- TS_03: Account Overview Module -->
+    <test name="Account Overview Tests">
+        <groups>
+            <run>
+                <include name="accountOverview"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.AccountOverviewTest"/>
+        </classes>
+    </test>
+
+    <!-- TS_04: Fund Transfer Module -->
+    <test name="Fund Transfer Tests">
+        <groups>
+            <run>
+                <include name="fundTransfer"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+    <!-- TS_05: Bill Payment Module -->
+    <test name="Bill Payment Tests">
+        <groups>
+            <run>
+                <include name="billPayment"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.BillPaymentTest"/>
+        </classes>
+    </test>
+
+    <!-- TS_06: Contact Us Module -->
+    <test name="Contact Us Tests">
+        <groups>
+            <run>
+                <include name="contactUs"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.parabank.tests.ContactUsTest"/>
+        </classes>
+    </test>
+
+    <!-- Listeners for reporting and screenshots -->
+    <listeners>
+        <listener class-name="com.parabank.utils.ExtentReportListener"/>
+    </listeners>
+
+</suite>
