@@ -2573,3 +2573,1178 @@ java.lang.AssertionError: Pre-condition for TC_31 failed: Bill payment did not s
 2026-05-04 20:29:41.773 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
 2026-05-04 20:29:41.776 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
 2026-05-04 20:29:41.777 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 14:46:00.773 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 14:46:00.776 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 14:46:00.778 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 14:46:04.710 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 14:46:06.386 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 14:46:06.569 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 14:46:06.785 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 14:46:06.977 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 14:46:07.986 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 14:46:07.988 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 14:46:07.989 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 14:46:08.087 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 14:46:08.087 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 14:46:08.884 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 14:46:10.082 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 14:46:10.218 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 14:46:10.354 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 14:46:10.818 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 14:47:01.208 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 14:47:01.208 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 14:47:01.297 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 14:47:01.297 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 14:47:03.742 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 14:47:04.869 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 14:47:04.998 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 14:47:05.138 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 14:47:05.582 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 14:47:55.873 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 14:47:55.873 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 14:47:55.962 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 14:47:55.963 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 14:47:58.423 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 14:48:00.060 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 14:48:00.197 [main] DEBUG c.p.b.BasePage - Typed 'suiiiiii' into element: By.name: username
+2026-05-05 14:48:00.320 [main] DEBUG c.p.b.BasePage - Typed 'suiiiiiiii' into element: By.name: password
+2026-05-05 14:48:00.776 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 14:48:51.265 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 14:48:51.265 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 14:48:51.350 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 14:48:51.351 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 14:48:53.739 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 14:48:55.270 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 14:48:55.389 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 14:48:55.497 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 14:48:55.850 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 14:49:46.472 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 14:49:46.472 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:05:04.424 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:05:04.431 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:05:04.435 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:05:08.949 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:05:10.313 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:05:10.552 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:05:10.676 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:05:11.700 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:05:11.781 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:05:11.785 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:05:11.785 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:05:11.942 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:05:11.942 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:05:13.458 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:05:14.797 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:05:15.010 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:05:15.169 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:05:16.246 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:06:09.274 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:06:09.283 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:06:09.287 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:06:13.420 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:06:14.688 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:06:14.965 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:06:15.114 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:06:15.990 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:06:16.061 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:06:16.065 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:06:16.065 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:06:16.209 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:06:16.209 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:06:17.412 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:06:18.570 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:06:18.777 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:06:18.947 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:06:19.912 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:06:30.072 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:06:30.072 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:06:30.158 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:06:30.158 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:06:33.038 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:06:34.468 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:06:34.639 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:06:34.777 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:06:35.957 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:06:46.476 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:06:46.477 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:06:46.569 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:06:46.572 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:06:49.352 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:06:50.736 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:06:50.904 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:06:51.036 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:06:51.385 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:07:01.959 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:07:01.959 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:07:36.100 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:07:36.106 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:07:36.109 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:07:40.157 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:07:41.133 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:07:41.382 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:07:41.544 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:07:41.689 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:07:42.486 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:07:42.488 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:07:42.488 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:07:42.594 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:07:42.594 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:07:43.780 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:07:45.146 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:07:45.328 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:07:45.490 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:07:46.387 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:07:56.649 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:07:56.649 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:07:56.755 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:07:56.755 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:07:59.773 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:08:00.864 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:08:01.116 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:08:01.256 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:08:02.132 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:08:12.224 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:08:12.224 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:08:12.306 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:08:12.307 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:08:14.941 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:08:16.036 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:08:16.253 [main] DEBUG c.p.b.BasePage - Typed 'suiiiiii' into element: By.name: username
+2026-05-05 16:08:16.410 [main] DEBUG c.p.b.BasePage - Typed 'suiiiiiiii' into element: By.name: password
+2026-05-05 16:08:16.538 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:08:26.847 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:08:26.847 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:08:26.930 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:08:26.931 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:08:29.631 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:08:31.093 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:08:31.298 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:08:31.472 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:08:31.603 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:08:42.194 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:08:42.194 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:28:10.851 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:28:10.858 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:28:10.862 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:28:15.802 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:28:17.318 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:28:17.570 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:28:17.703 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:28:18.590 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:28:18.686 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:28:18.689 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:28:18.689 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:28:18.813 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:28:18.813 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:28:20.117 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:28:21.573 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:28:21.758 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:28:21.905 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:28:22.841 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:28:33.075 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:28:33.075 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:28:33.204 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:28:33.205 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:28:36.168 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:28:37.263 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:28:37.483 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:28:37.626 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:28:38.526 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:28:48.645 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:28:48.646 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:28:48.730 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:28:48.731 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:28:51.716 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:28:52.768 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:28:52.973 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:28:53.107 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:28:53.458 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:29:03.669 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:29:03.669 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:30:55.556 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:30:55.562 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:30:55.569 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:30:59.943 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:31:01.260 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:31:01.492 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:31:01.634 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:31:02.878 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:31:02.969 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:31:02.972 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:31:02.973 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:31:03.084 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:03.084 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:31:04.617 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:31:05.759 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:31:05.943 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:31:06.087 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:31:06.979 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:31:17.165 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:17.167 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:31:17.281 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:17.282 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:31:20.672 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:31:22.037 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:31:22.278 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:31:22.419 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:31:23.347 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:31:33.466 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:33.466 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:31:33.547 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:33.548 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:31:35.998 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:31:37.003 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:31:37.130 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:31:37.243 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:31:37.616 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:31:47.696 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:31:47.696 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:33:05.291 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:33:05.294 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:33:05.296 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:33:08.697 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:33:10.198 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:33:10.367 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:33:10.510 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:33:10.642 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:33:11.539 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:33:11.542 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:33:11.542 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:33:11.640 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:33:11.641 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:33:12.312 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:33:13.885 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:33:14.021 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:33:14.140 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:33:14.981 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:33:45.078 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:33:45.078 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:33:45.161 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:33:45.161 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:33:47.582 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:33:49.106 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:33:49.239 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:33:49.390 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:33:50.317 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:34:20.637 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:34:20.638 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:34:20.728 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:34:20.729 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:34:23.158 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:34:24.321 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:34:24.448 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:34:24.618 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:34:25.148 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:34:55.392 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:34:55.392 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:35:54.772 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:35:54.776 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:35:54.778 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:35:58.070 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:35:59.559 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:35:59.717 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:35:59.836 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:36:00.661 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:36:00.744 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:36:00.748 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:36:00.748 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:36:00.842 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:36:00.842 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:36:01.614 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:36:03.247 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:36:03.390 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:36:03.541 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:36:04.508 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:36:34.854 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:36:34.854 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:36:34.937 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:36:34.937 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:36:38.019 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:36:39.635 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:36:39.760 [main] DEBUG c.p.b.BasePage - Typed 'moh123445' into element: By.name: username
+2026-05-05 16:36:39.877 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:36:40.911 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:38:51.066 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 16:38:51.070 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:38:51.071 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:38:54.748 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:38:56.313 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:38:56.476 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:38:56.618 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:38:57.632 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:38:57.713 [main] INFO  c.p.b.BaseTest - TC_01 PASSED: Successful login verified.
+2026-05-05 16:38:57.717 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 16:38:57.717 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:38:57.816 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:38:57.818 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:38:58.612 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:39:00.298 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:39:00.440 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 16:39:00.583 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 16:39:01.535 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:39:32.031 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:39:32.031 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:39:32.114 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:39:32.114 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:39:34.561 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:39:35.727 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:39:35.862 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 16:39:35.970 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 16:39:37.041 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:40:07.210 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:40:07.211 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:40:07.295 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 16:40:07.296 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:40:09.709 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:40:11.371 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:40:11.486 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 16:40:11.624 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 16:40:11.859 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 16:40:43.150 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: '' | Error shown: 'Please enter a username and password.'
+2026-05-05 16:40:43.153 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 16:40:43.153 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:46:03.559 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulRegistration =======
+2026-05-05 16:46:03.562 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:46:03.563 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:46:06.896 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:46:08.722 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:46:09.000 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:46:09.184 [main] DEBUG c.p.b.BasePage - Typed 'Automation' into element: By.id: customer.firstName
+2026-05-05 16:46:09.318 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:46:09.537 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:46:09.738 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:46:09.909 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:46:10.022 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:46:10.203 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:46:10.420 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:46:10.647 [main] DEBUG c.p.b.BasePage - Typed '1777988763430' into element: By.id: customer.username
+2026-05-05 16:46:10.771 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:46:10.897 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:46:11.278 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:46:11.437 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulRegistration =======
+2026-05-05 16:46:11.437 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:47:21.202 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulRegistration =======
+2026-05-05 16:47:21.205 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:47:21.207 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:47:24.420 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:47:25.954 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:47:26.234 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:47:26.455 [main] DEBUG c.p.b.BasePage - Typed 'Automation' into element: By.id: customer.firstName
+2026-05-05 16:47:26.569 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:47:26.716 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:47:26.841 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:47:26.938 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:47:27.040 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:47:27.203 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:47:27.322 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:47:27.478 [main] DEBUG c.p.b.BasePage - Typed '1777988841056' into element: By.id: customer.username
+2026-05-05 16:47:27.590 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:47:27.709 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:47:28.094 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:47:28.251 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulRegistration =======
+2026-05-05 16:47:28.251 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:53:38.151 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulRegistration =======
+2026-05-05 16:53:38.156 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:53:38.158 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:53:41.402 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:53:42.999 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:53:43.339 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:53:43.525 [main] DEBUG c.p.b.BasePage - Typed 'Automation' into element: By.id: customer.firstName
+2026-05-05 16:53:43.665 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:53:43.842 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:53:43.967 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:53:44.080 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:53:44.201 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:53:44.348 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:53:44.513 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:53:44.707 [main] DEBUG c.p.b.BasePage - Typed '1777989218015' into element: By.id: customer.username
+2026-05-05 16:53:44.829 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:53:44.965 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:53:45.353 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:53:45.742 [main] INFO  c.p.b.BaseTest - TC_06 PASSED: Registration succeeded for username '1777989218015'.
+2026-05-05 16:53:45.745 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulRegistration =======
+2026-05-05 16:53:45.745 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:21.894 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulRegistration =======
+2026-05-05 16:54:21.897 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 16:54:21.899 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:25.262 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:26.836 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:27.125 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:27.304 [main] DEBUG c.p.b.BasePage - Typed 'Automation' into element: By.id: customer.firstName
+2026-05-05 16:54:27.447 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:54:27.655 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:54:27.866 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:54:28.013 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:54:28.162 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:54:28.360 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:54:28.569 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:54:28.706 [main] DEBUG c.p.b.BasePage - Typed '1777989261752' into element: By.id: customer.username
+2026-05-05 16:54:28.823 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:54:28.944 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:54:29.326 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:54:29.741 [main] INFO  c.p.b.BaseTest - TC_06 PASSED: Registration succeeded for username '1777989261752'.
+2026-05-05 16:54:29.745 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulRegistration =======
+2026-05-05 16:54:29.745 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:29.837 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationWithEmptyForm =======
+2026-05-05 16:54:29.837 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:30.457 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:31.631 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:31.881 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:32.381 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:54:32.434 [main] INFO  c.p.b.BaseTest - TC_07 PASSED: Validation errors displayed for empty form submission.
+2026-05-05 16:54:32.436 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationWithEmptyForm =======
+2026-05-05 16:54:32.436 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:32.509 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationMissingFirstName =======
+2026-05-05 16:54:32.509 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:33.224 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:34.598 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:34.940 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:35.087 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: customer.firstName
+2026-05-05 16:54:35.208 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:54:35.320 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:54:35.446 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:54:35.562 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:54:35.739 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:54:35.877 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:54:36.011 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:54:36.122 [main] DEBUG c.p.b.BasePage - Typed 'user_no_firstname' into element: By.id: customer.username
+2026-05-05 16:54:36.243 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:54:36.387 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:54:36.756 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:54:36.833 [main] INFO  c.p.b.BaseTest - TC_08 PASSED: First name error displayed correctly.
+2026-05-05 16:54:36.835 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationMissingFirstName =======
+2026-05-05 16:54:36.836 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:36.911 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationPasswordMismatch =======
+2026-05-05 16:54:36.911 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:37.489 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:39.026 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:39.350 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:39.511 [main] DEBUG c.p.b.BasePage - Typed 'Auto' into element: By.id: customer.firstName
+2026-05-05 16:54:39.637 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:54:39.758 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:54:39.868 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:54:39.980 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:54:40.109 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:54:40.229 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:54:40.352 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:54:40.466 [main] DEBUG c.p.b.BasePage - Typed 'user_pw_mismatch' into element: By.id: customer.username
+2026-05-05 16:54:40.567 [main] DEBUG c.p.b.BasePage - Typed 'Test123' into element: By.id: customer.password
+2026-05-05 16:54:40.674 [main] DEBUG c.p.b.BasePage - Typed 'Test456' into element: By.id: repeatedPassword
+2026-05-05 16:54:41.039 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:54:41.144 [main] INFO  c.p.b.BaseTest - TC_09 PASSED: Password mismatch error displayed correctly.
+2026-05-05 16:54:41.146 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationPasswordMismatch =======
+2026-05-05 16:54:41.147 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:41.222 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationWithExistingUsername =======
+2026-05-05 16:54:41.222 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:41.892 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:43.018 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:43.282 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:43.447 [main] DEBUG c.p.b.BasePage - Typed 'Existing' into element: By.id: customer.firstName
+2026-05-05 16:54:43.568 [main] DEBUG c.p.b.BasePage - Typed 'User' into element: By.id: customer.lastName
+2026-05-05 16:54:43.708 [main] DEBUG c.p.b.BasePage - Typed '123 Main St' into element: By.id: customer.address.street
+2026-05-05 16:54:43.897 [main] DEBUG c.p.b.BasePage - Typed 'Anytown' into element: By.id: customer.address.city
+2026-05-05 16:54:44.106 [main] DEBUG c.p.b.BasePage - Typed 'CA' into element: By.id: customer.address.state
+2026-05-05 16:54:44.275 [main] DEBUG c.p.b.BasePage - Typed '90001' into element: By.id: customer.address.zipCode
+2026-05-05 16:54:44.375 [main] DEBUG c.p.b.BasePage - Typed '5559876543' into element: By.id: customer.phoneNumber
+2026-05-05 16:54:44.498 [main] DEBUG c.p.b.BasePage - Typed '987-65-4321' into element: By.id: customer.ssn
+2026-05-05 16:54:44.639 [main] DEBUG c.p.b.BasePage - Typed 'john' into element: By.id: customer.username
+2026-05-05 16:54:44.842 [main] DEBUG c.p.b.BasePage - Typed 'Password1' into element: By.id: customer.password
+2026-05-05 16:54:44.992 [main] DEBUG c.p.b.BasePage - Typed 'Password1' into element: By.id: repeatedPassword
+2026-05-05 16:54:45.364 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:54:45.450 [main] INFO  c.p.b.BaseTest - TC_10 PASSED: Duplicate username error displayed correctly.
+2026-05-05 16:54:45.451 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationWithExistingUsername =======
+2026-05-05 16:54:45.451 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:54:45.523 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationWhitespaceLastName =======
+2026-05-05 16:54:45.524 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:54:46.240 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:54:47.327 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:54:47.578 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:54:47.737 [main] DEBUG c.p.b.BasePage - Typed 'Auto' into element: By.id: customer.firstName
+2026-05-05 16:54:47.866 [main] DEBUG c.p.b.BasePage - Typed '     ' into element: By.id: customer.lastName
+2026-05-05 16:54:47.994 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:54:48.145 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:54:48.345 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:54:48.585 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:54:48.700 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:54:48.803 [main] DEBUG c.p.b.BasePage - Typed '123-45-6789' into element: By.id: customer.ssn
+2026-05-05 16:54:48.902 [main] DEBUG c.p.b.BasePage - Typed 'user_ws_lastname' into element: By.id: customer.username
+2026-05-05 16:54:49.018 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:54:49.137 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:54:49.497 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:55:19.863 [main] WARN  c.p.b.BaseTest - TC_11 WARNING: System accepted a whitespace-only Last Name. This may be a known limitation of the ParaBank demo application.
+2026-05-05 16:55:19.866 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationWhitespaceLastName =======
+2026-05-05 16:55:19.866 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 16:55:19.950 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testRegistrationMissingSSN =======
+2026-05-05 16:55:19.950 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 16:55:22.419 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 16:55:23.450 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 16:55:23.718 [main] INFO  c.p.b.BasePage - Navigated to registration page.
+2026-05-05 16:55:23.889 [main] DEBUG c.p.b.BasePage - Typed 'Auto' into element: By.id: customer.firstName
+2026-05-05 16:55:24.006 [main] DEBUG c.p.b.BasePage - Typed 'Tester' into element: By.id: customer.lastName
+2026-05-05 16:55:24.111 [main] DEBUG c.p.b.BasePage - Typed '123 QA Street' into element: By.id: customer.address.street
+2026-05-05 16:55:24.219 [main] DEBUG c.p.b.BasePage - Typed 'Test City' into element: By.id: customer.address.city
+2026-05-05 16:55:24.336 [main] DEBUG c.p.b.BasePage - Typed 'NY' into element: By.id: customer.address.state
+2026-05-05 16:55:24.483 [main] DEBUG c.p.b.BasePage - Typed '10001' into element: By.id: customer.address.zipCode
+2026-05-05 16:55:24.686 [main] DEBUG c.p.b.BasePage - Typed '5551234567' into element: By.id: customer.phoneNumber
+2026-05-05 16:55:24.843 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: customer.ssn
+2026-05-05 16:55:25.066 [main] DEBUG c.p.b.BasePage - Typed 'user_no_ssn' into element: By.id: customer.username
+2026-05-05 16:55:25.235 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: customer.password
+2026-05-05 16:55:25.405 [main] DEBUG c.p.b.BasePage - Typed 'Test@1234' into element: By.id: repeatedPassword
+2026-05-05 16:55:25.800 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Register']
+2026-05-05 16:55:25.874 [main] INFO  c.p.b.BaseTest - TC_12 PASSED: SSN required error displayed correctly.
+2026-05-05 16:55:25.875 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testRegistrationMissingSSN =======
+2026-05-05 16:55:25.876 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:25:02.551 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 21:25:02.556 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 21:25:02.559 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:25:08.413 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:25:11.405 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:25:11.627 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 21:25:11.752 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 21:25:12.932 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:25:43.014 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 21:25:43.014 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:25:43.111 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:25:43.112 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:25:45.718 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:25:47.219 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:25:47.356 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 21:25:47.503 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 21:25:48.026 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:25:48.118 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:25:48.118 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:25:48.192 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:25:48.193 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:25:48.859 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:25:55.096 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:25:55.226 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 21:25:55.325 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 21:25:56.211 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:25:56.268 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:25:56.268 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:25:56.350 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:25:56.351 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:25:58.846 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:26:00.230 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:26:00.351 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 21:26:00.501 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 21:26:00.939 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:26:31.133 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: '' | Error shown: 'Please enter a username and password.'
+2026-05-05 21:26:31.138 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:26:31.138 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:27:15.581 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-05 21:27:15.584 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 21:27:15.586 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:27:18.987 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:27:20.290 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:27:20.454 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 21:27:20.570 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 21:27:20.678 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:27:50.876 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-05 21:27:50.877 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:27:50.985 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:27:50.986 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:27:53.463 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:27:54.591 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:27:54.729 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-05 21:27:54.842 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-05 21:27:55.313 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:28:25.514 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: 'moh123' | Error shown: 'The username and password could not be verified.'
+2026-05-05 21:28:25.515 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:28:25.515 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:28:25.605 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:28:25.605 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:28:28.023 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:28:29.531 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:28:29.659 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-05 21:28:29.789 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-05 21:28:29.891 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:29:00.454 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: 'wrong_user' | Error shown: 'The username and password could not be verified.'
+2026-05-05 21:29:00.456 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:29:00.456 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 21:29:00.542 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-05 21:29:00.542 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 21:29:03.071 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 21:29:04.158 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 21:29:04.281 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-05 21:29:04.400 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-05 21:29:04.521 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-05 21:29:34.971 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: '' | Error shown: 'Please enter a username and password.'
+2026-05-05 21:29:34.972 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-05 21:29:34.972 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:16.095 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:40:16.098 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 22:40:16.100 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:19.838 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:21.274 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:21.523 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:40:21.524 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:21.608 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 22:40:21.609 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:22.342 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:23.931 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:24.129 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 22:40:24.130 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:24.208 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 22:40:24.208 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:25.342 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:26.411 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:26.604 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 22:40:26.604 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:26.682 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 22:40:26.682 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:27.328 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:28.557 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:28.750 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 22:40:28.751 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:28.827 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 22:40:28.827 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:29.499 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:30.678 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:30.875 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 22:40:30.875 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:30.954 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:40:30.955 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:31.645 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:32.671 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:32.868 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:40:32.868 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:40:32.948 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:40:32.948 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:40:33.638 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:40:35.100 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:40:35.299 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:40:35.300 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:44:55.748 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:44:55.751 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 22:44:55.752 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:44:58.994 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:00.726 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:00.933 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:45:00.933 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:01.024 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 22:45:01.024 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:01.896 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:03.364 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:03.561 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 22:45:03.562 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:03.637 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 22:45:03.637 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:04.248 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:05.315 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:05.501 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 22:45:05.501 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:05.577 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 22:45:05.578 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:06.255 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:07.809 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:07.999 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 22:45:08.000 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:08.076 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 22:45:08.076 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:08.717 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:09.947 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:10.136 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 22:45:10.137 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:10.213 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:45:10.213 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:10.789 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:11.888 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:12.083 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:45:12.083 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:45:12.163 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:45:12.163 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:45:12.744 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:45:13.945 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:45:14.289 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:45:14.289 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:47:54.094 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:47:54.098 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 22:47:54.099 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:47:57.536 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:48:00.639 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:48:00.985 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:48:11.093 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:48:11.094 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:48:11.191 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 22:48:11.191 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:48:13.700 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:48:17.953 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:48:18.197 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:48:28.688 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 22:48:28.688 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:48:28.776 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 22:48:28.777 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:48:31.311 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:48:32.778 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:48:33.016 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:07.930 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:49:07.934 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 22:49:07.936 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:11.301 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:12.718 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:15.005 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:15.194 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 22:49:15.330 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 22:49:15.487 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 22:49:15.652 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 22:49:16.200 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:49:16.330 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 22:49:16.331 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:49:16.463 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 22:49:16.464 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:17.185 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:18.988 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:21.040 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:21.758 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:49:21.811 [main] INFO  c.p.b.BaseTest - TC_33 PASSED: Validation errors displayed for empty Contact Us form.
+2026-05-05 22:49:21.813 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 22:49:21.813 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:49:21.887 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 22:49:21.887 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:22.543 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:23.787 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:24.052 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:24.218 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: name
+2026-05-05 22:49:24.374 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 22:49:24.543 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 22:49:24.758 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 22:49:25.416 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:49:25.488 [main] INFO  c.p.b.BaseTest - TC_34 PASSED: Name required error displayed correctly.
+2026-05-05 22:49:25.490 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 22:49:25.490 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:49:25.569 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 22:49:25.570 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:26.228 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:27.475 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:27.736 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:27.885 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 22:49:28.021 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 22:49:28.173 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 22:49:28.321 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: message
+2026-05-05 22:49:28.902 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:49:28.983 [main] INFO  c.p.b.BaseTest - TC_35 PASSED: Message required error displayed correctly.
+2026-05-05 22:49:28.984 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 22:49:28.985 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:49:29.061 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 22:49:29.061 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:29.717 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:34.951 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:36.098 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:36.231 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 22:49:36.332 [main] DEBUG c.p.b.BasePage - Typed 'johndoe.com' into element: By.id: email
+2026-05-05 22:49:36.458 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 22:49:36.666 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 22:49:36.814 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:49:47.112 [main] WARN  c.p.b.BaseTest - TC_36 WARNING: System accepted invalid email 'johndoe.com' without error. ParaBank may not perform email format validation. Confirmation shown: 'Customer Care'
+2026-05-05 22:49:47.113 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 22:49:47.114 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:49:47.195 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:49:47.196 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:49:49.633 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:49:53.097 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:49:53.378 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:49:53.525 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 22:49:53.634 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 22:49:53.744 [main] DEBUG c.p.b.BasePage - Typed 'abc-$#@!' into element: By.id: phone
+2026-05-05 22:49:53.993 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 22:49:54.136 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:50:04.517 [main] WARN  c.p.b.BaseTest - TC_37 WARNING: System accepted non-numeric phone 'abc-$#@!' without error. Consider adding phone format validation if not intentional.
+2026-05-05 22:50:04.517 [main] INFO  c.p.b.BaseTest - TC_37 COMPLETED: Phone special character handling documented.
+2026-05-05 22:50:04.519 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 22:50:04.520 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 22:50:04.600 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:50:04.600 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 22:50:07.105 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 22:50:08.330 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 22:50:08.661 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 22:50:08.819 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 22:50:08.942 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 22:50:09.086 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 22:50:15.606 [main] DEBUG c.p.b.BasePage - Typed 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' into element: By.id: message
+2026-05-05 22:50:16.761 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 22:50:27.313 [main] INFO  c.p.b.BaseTest - TC_38 PASSED: System accepted the 5001-char message without crashing. Outcome: 'Customer Care'
+2026-05-05 22:50:27.315 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 22:50:27.315 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:02:30.809 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:02:30.814 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:02:30.816 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:02:34.212 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:02:35.856 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:02:36.692 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:02:36.874 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:02:37.017 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:02:37.197 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:02:37.424 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:02:37.893 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:02:48.136 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:02:48.136 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:02:48.241 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 23:02:48.242 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:02:50.733 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:02:57.881 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:02:58.300 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:02:58.909 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:02:58.959 [main] INFO  c.p.b.BaseTest - TC_33 PASSED: Validation errors displayed for empty Contact Us form.
+2026-05-05 23:02:58.961 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 23:02:58.961 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:02:59.043 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 23:02:59.044 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:03:01.559 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:03:03.079 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:03:03.340 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:03:03.495 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: name
+2026-05-05 23:03:03.674 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:03:03.845 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:03:04.076 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:03:04.517 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:03:04.597 [main] INFO  c.p.b.BaseTest - TC_34 PASSED: Name required error displayed correctly.
+2026-05-05 23:03:04.599 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 23:03:04.599 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:03:04.680 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 23:03:04.681 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:03:05.282 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:03:06.480 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:03:06.798 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:03:06.970 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:03:07.105 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:03:07.304 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:03:07.436 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: message
+2026-05-05 23:03:07.898 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:03:07.978 [main] INFO  c.p.b.BaseTest - TC_35 PASSED: Message required error displayed correctly.
+2026-05-05 23:03:07.979 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 23:03:07.980 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:03:08.061 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 23:03:08.062 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:03:08.627 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:03:11.895 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:03:13.253 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:03:13.422 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:03:13.557 [main] DEBUG c.p.b.BasePage - Typed 'johndoe.com' into element: By.id: email
+2026-05-05 23:03:13.719 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:03:13.913 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:03:16.108 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:03:37.083 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 23:03:37.083 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:03:37.179 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:03:37.180 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:03:39.616 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:03:42.587 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:03:43.077 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:03:43.234 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:03:43.354 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:03:43.473 [main] DEBUG c.p.b.BasePage - Typed 'abc-$#@!' into element: By.id: phone
+2026-05-05 23:03:43.605 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:03:44.040 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:03:54.507 [main] WARN  c.p.b.BaseTest - TC_37 WARNING: System accepted non-numeric phone 'abc-$#@!' without error. Consider adding phone format validation if not intentional.
+2026-05-05 23:03:54.507 [main] INFO  c.p.b.BaseTest - TC_37 COMPLETED: Phone special character handling documented.
+2026-05-05 23:03:54.508 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:03:54.508 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:03:54.593 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:03:54.593 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:03:57.088 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:03:59.828 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:04:00.252 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:04:00.412 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:04:00.534 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:04:00.633 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:04:07.202 [main] DEBUG c.p.b.BasePage - Typed 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' into element: By.id: message
+2026-05-05 23:04:10.996 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:04:31.492 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:04:31.492 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:17.502 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:18:17.505 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:18:17.506 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:20.840 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:22.619 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:22.919 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:23.101 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:18:23.241 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:18:23.377 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:18:23.568 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:18:23.975 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:18:24.058 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:18:24.058 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:24.145 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 23:18:24.146 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:24.909 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:26.536 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:27.611 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:27.764 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:18:28.674 [main] INFO  c.p.b.BaseTest - TC_33 PASSED: Validation errors displayed for empty Contact Us form.
+2026-05-05 23:18:28.676 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 23:18:28.676 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:28.754 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 23:18:28.754 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:29.455 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:31.035 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:31.386 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:31.538 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: name
+2026-05-05 23:18:31.693 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:18:31.810 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:18:31.967 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:18:32.367 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:18:32.456 [main] INFO  c.p.b.BaseTest - TC_34 PASSED: Name required error displayed correctly.
+2026-05-05 23:18:32.457 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 23:18:32.458 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:32.532 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 23:18:32.532 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:33.205 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:34.414 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:34.761 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:34.928 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:18:35.076 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:18:35.200 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:18:35.310 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: message
+2026-05-05 23:18:36.075 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:18:36.128 [main] INFO  c.p.b.BaseTest - TC_35 PASSED: Message required error displayed correctly.
+2026-05-05 23:18:36.129 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 23:18:36.129 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:36.204 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 23:18:36.204 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:36.766 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:37.905 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:38.172 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:38.335 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:18:38.469 [main] DEBUG c.p.b.BasePage - Typed 'johndoe.com' into element: By.id: email
+2026-05-05 23:18:38.592 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:18:38.777 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:18:39.232 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:18:49.364 [main] WARN  c.p.b.BaseTest - TC_36 WARNING: System accepted invalid email 'johndoe.com' without error. ParaBank may not perform email format validation. Confirmation shown: 'Thank you John Doe'
+2026-05-05 23:18:49.366 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 23:18:49.367 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:18:49.445 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:18:49.445 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:18:51.885 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:18:53.057 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:18:53.309 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:18:53.477 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:18:53.612 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:18:53.733 [main] DEBUG c.p.b.BasePage - Typed 'abc-$#@!' into element: By.id: phone
+2026-05-05 23:18:53.876 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:18:54.003 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:19:04.512 [main] WARN  c.p.b.BaseTest - TC_37 WARNING: System accepted non-numeric phone 'abc-$#@!' without error. Consider adding phone format validation if not intentional.
+2026-05-05 23:19:04.512 [main] INFO  c.p.b.BaseTest - TC_37 COMPLETED: Phone special character handling documented.
+2026-05-05 23:19:04.514 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:19:04.514 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:19:04.594 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:19:04.595 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:19:07.049 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:19:08.213 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:19:08.744 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:19:08.902 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:19:09.023 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:19:09.134 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:19:14.975 [main] DEBUG c.p.b.BasePage - Typed 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' into element: By.id: message
+2026-05-05 23:19:16.011 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:19:26.521 [main] INFO  c.p.b.BaseTest - TC_38 PASSED: System accepted the 5001-char message without crashing. Outcome: 'Thank you John Doe'
+2026-05-05 23:19:26.523 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:19:26.523 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:20:19.792 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:20:19.796 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:20:19.797 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:20:22.985 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:20:24.509 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:20:24.814 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:20:24.999 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:20:25.151 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:20:25.377 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:20:25.657 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:20:26.133 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:20:26.225 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:20:26.226 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:22:27.311 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:22:27.315 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:22:27.316 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:22:30.500 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:22:32.710 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:22:33.149 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:22:33.307 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:22:33.418 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:22:33.559 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:22:33.720 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:22:33.886 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:22:34.839 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:22:34.839 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:25:31.434 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:25:31.437 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:25:31.439 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:25:34.872 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:25:36.272 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:25:37.164 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:25:37.344 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:25:37.465 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:25:37.578 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:25:37.715 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:25:38.057 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:25:38.149 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:25:38.150 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:26:47.042 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:26:47.045 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:26:47.047 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:26:50.395 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:26:51.661 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:26:51.933 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:26:52.112 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:26:52.245 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:26:52.360 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:26:52.493 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:26:52.839 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:26:52.928 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:26:52.928 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:27:44.804 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:27:44.810 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:27:44.812 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:27:52.780 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:27:52.786 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:27:52.789 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:27:56.317 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:27:57.597 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:27:57.874 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:27:58.060 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:27:58.185 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:27:58.297 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:27:58.435 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:27:58.777 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:27:58.850 [main] INFO  c.p.b.BaseTest - TC_32 PASSED: Contact form submitted. Confirmation: 'Thank you John Doe'
+2026-05-05 23:27:58.853 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:27:58.853 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:22.503 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:29:22.507 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-05 23:29:22.508 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:25.853 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:27.206 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:27.475 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:27.674 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:29:27.795 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:29:27.906 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:29:28.051 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:29:28.393 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:29:28.462 [main] INFO  c.p.b.BaseTest - TC_32 PASSED: Contact form submitted. Confirmation: 'Thank you John Doe'
+2026-05-05 23:29:28.465 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulContactFormSubmission =======
+2026-05-05 23:29:28.465 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:28.570 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSubmitEmptyContactForm =======
+2026-05-05 23:29:28.570 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:29.691 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:30.954 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:31.204 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:31.574 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:29:31.645 [main] INFO  c.p.b.BaseTest - TC_33 PASSED: Validation errors displayed for empty Contact Us form.
+2026-05-05 23:29:31.647 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSubmitEmptyContactForm =======
+2026-05-05 23:29:31.647 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:31.735 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingNameField =======
+2026-05-05 23:29:31.735 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:32.592 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:33.931 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:34.213 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:34.361 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: name
+2026-05-05 23:29:34.479 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:29:34.589 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:29:34.719 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:29:34.831 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:29:35.395 [main] INFO  c.p.b.BaseTest - TC_34 PASSED: Name required error displayed correctly.
+2026-05-05 23:29:35.397 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingNameField =======
+2026-05-05 23:29:35.397 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:35.476 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testMissingMessageField =======
+2026-05-05 23:29:35.477 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:36.131 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:37.104 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:37.358 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:37.523 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:29:37.644 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:29:37.827 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:29:38.047 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.id: message
+2026-05-05 23:29:38.249 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:29:38.809 [main] INFO  c.p.b.BaseTest - TC_35 PASSED: Message required error displayed correctly.
+2026-05-05 23:29:38.810 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testMissingMessageField =======
+2026-05-05 23:29:38.810 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:38.883 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testInvalidEmailFormat =======
+2026-05-05 23:29:38.883 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:39.488 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:40.551 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:40.808 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:40.981 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:29:41.106 [main] DEBUG c.p.b.BasePage - Typed 'johndoe.com' into element: By.id: email
+2026-05-05 23:29:41.220 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:29:41.352 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:29:41.699 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:29:52.140 [main] WARN  c.p.b.BaseTest - TC_36 WARNING: System accepted invalid email 'johndoe.com' without error. ParaBank may not perform email format validation. Confirmation shown: 'Thank you John Doe'
+2026-05-05 23:29:52.142 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testInvalidEmailFormat =======
+2026-05-05 23:29:52.142 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:29:52.222 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:29:52.222 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:29:54.673 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:29:55.695 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:29:55.943 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:29:56.106 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:29:56.227 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:29:56.336 [main] DEBUG c.p.b.BasePage - Typed 'abc-$#@!' into element: By.id: phone
+2026-05-05 23:29:56.475 [main] DEBUG c.p.b.BasePage - Typed 'Hello, this is a test message from the automation suite.' into element: By.id: message
+2026-05-05 23:29:56.819 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:30:07.184 [main] WARN  c.p.b.BaseTest - TC_37 WARNING: System accepted non-numeric phone 'abc-$#@!' without error. Consider adding phone format validation if not intentional.
+2026-05-05 23:30:07.184 [main] INFO  c.p.b.BaseTest - TC_37 COMPLETED: Phone special character handling documented.
+2026-05-05 23:30:07.185 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSpecialCharactersInPhoneField =======
+2026-05-05 23:30:07.185 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-05 23:30:07.268 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:30:07.269 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-05 23:30:09.874 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-05 23:30:10.910 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-05 23:30:11.162 [main] INFO  c.p.b.BasePage - Navigated to Contact Us page.
+2026-05-05 23:30:11.331 [main] DEBUG c.p.b.BasePage - Typed 'John Doe' into element: By.id: name
+2026-05-05 23:30:11.452 [main] DEBUG c.p.b.BasePage - Typed 'test@test.com' into element: By.id: email
+2026-05-05 23:30:11.570 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.id: phone
+2026-05-05 23:30:19.017 [main] DEBUG c.p.b.BasePage - Typed 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' into element: By.id: message
+2026-05-05 23:30:19.771 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Send to Customer Care']
+2026-05-05 23:30:30.174 [main] INFO  c.p.b.BaseTest - TC_38 PASSED: System accepted the 5001-char message without crashing. Outcome: 'Thank you John Doe'
+2026-05-05 23:30:30.175 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testExceedingMaxLengthInMessageField =======
+2026-05-05 23:30:30.176 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-06 00:00:43.037 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-06 00:00:43.048 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-06 00:00:43.051 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-06 00:00:48.435 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-06 00:00:50.576 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-06 00:00:50.804 [main] DEBUG c.p.b.BasePage - Typed 'moh123' into element: By.name: username
+2026-05-06 00:00:50.949 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-06 00:00:51.446 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-06 00:01:01.647 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-06 00:01:01.648 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-06 00:02:53.256 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testSuccessfulLogin =======
+2026-05-06 00:02:53.262 [main] INFO  c.p.u.ConfigReader - Configuration loaded from: src/test/resources/config.properties
+2026-05-06 00:02:53.267 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-06 00:02:58.331 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-06 00:02:59.689 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-06 00:02:59.928 [main] DEBUG c.p.b.BasePage - Typed 'moh123h' into element: By.name: username
+2026-05-06 00:03:00.078 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-06 00:03:00.597 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-06 00:03:10.710 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testSuccessfulLogin =======
+2026-05-06 00:03:10.710 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-06 00:03:10.835 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:10.836 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-06 00:03:14.057 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-06 00:03:15.211 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-06 00:03:15.439 [main] DEBUG c.p.b.BasePage - Typed 'moh123h' into element: By.name: username
+2026-05-06 00:03:15.572 [main] DEBUG c.p.b.BasePage - Typed 'wrong_pass' into element: By.name: password
+2026-05-06 00:03:16.066 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-06 00:03:26.634 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: 'moh123h' | Error shown: 'An internal error has occurred and has been logged.'
+2026-05-06 00:03:26.636 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:26.636 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-06 00:03:26.738 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:26.739 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-06 00:03:29.825 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-06 00:03:31.262 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-06 00:03:31.465 [main] DEBUG c.p.b.BasePage - Typed 'wrong_user' into element: By.name: username
+2026-05-06 00:03:31.613 [main] DEBUG c.p.b.BasePage - Typed '123456789' into element: By.name: password
+2026-05-06 00:03:32.099 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-06 00:03:42.722 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: 'wrong_user' | Error shown: 'An internal error has occurred and has been logged.'
+2026-05-06 00:03:42.724 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:42.724 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1
+2026-05-06 00:03:42.833 [main] INFO  c.p.b.BaseTest - ======= Setting up test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:42.834 [main] INFO  c.p.u.DriverFactory - Initializing 'chrome' browser. Headless mode: false
+2026-05-06 00:03:45.727 [main] INFO  c.p.u.DriverFactory - WebDriver initialized successfully for thread: 1
+2026-05-06 00:03:47.121 [main] INFO  c.p.b.BaseTest - Navigated to base URL: https://parabank.parasoft.com/parabank
+2026-05-06 00:03:47.467 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: username
+2026-05-06 00:03:47.601 [main] DEBUG c.p.b.BasePage - Typed '' into element: By.name: password
+2026-05-06 00:03:47.980 [main] DEBUG c.p.b.BasePage - Clicked element: By.cssSelector: input[value='Log In']
+2026-05-06 00:03:58.159 [main] INFO  c.p.b.BaseTest - Negative login test PASSED | Username: '' | Error shown: 'Please enter a username and password.'
+2026-05-06 00:03:58.164 [main] INFO  c.p.b.BaseTest - ======= Tearing down test: testLoginWithInvalidCredentials =======
+2026-05-06 00:03:58.164 [main] INFO  c.p.u.DriverFactory - Quitting WebDriver for thread: 1

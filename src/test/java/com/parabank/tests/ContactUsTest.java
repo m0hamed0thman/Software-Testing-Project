@@ -54,10 +54,9 @@ public class ContactUsTest extends BaseTest {
         contactUsPage.fillAndSubmitForm(VALID_NAME, VALID_EMAIL, VALID_PHONE, VALID_MESSAGE);
 
         String successText = contactUsPage.getSuccessMessageText();
-        Assert.assertTrue(
-            successText.toLowerCase().contains("thank you") ||
-            successText.toLowerCase().contains("contact"),
-            "Expected a 'Thank you' confirmation message but got: '" + successText + "'"
+        String text_vail = "Thank you " + VALID_NAME;
+        Assert.assertTrue(text_vail.equals(successText),
+            "Expected a '"+text_vail+"' confirmation message but got: '" + successText + "'"
         );
 
         logger.info("TC_32 PASSED: Contact form submitted. Confirmation: '{}'", successText);

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2d594de-af1d-4d2a-a9fd-5461cfe64040" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ParaBankAutomationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/ContactUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/ContactUsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/logs/automation.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,35 +37,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ChromeTest.checkGoogleTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ChromeTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.testSuccessfulLogin.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ParaBankAutomationTest.checkGoogleTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegistrationTest.testSuccessfulRegistration.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/o_o/IdeaProjects/Software-Testing-Project/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml.executor": "Run",
+    "TestNG.ChromeTest.checkGoogleTitle.executor": "Run",
+    "TestNG.ChromeTest.executor": "Run",
+    "TestNG.ContactUsTest.executor": "Run",
+    "TestNG.ContactUsTest.testSuccessfulContactFormSubmission.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
+    "TestNG.LoginTest.testSuccessfulLogin.executor": "Run",
+    "TestNG.ParaBankAutomationTest.checkGoogleTitle.executor": "Run",
+    "TestNG.RegistrationTest.executor": "Run",
+    "TestNG.RegistrationTest.testSuccessfulRegistration.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/o_o/IdeaProjects/Software-Testing-Project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.LoginTest.testSuccessfulLogin">
-    <configuration name="LoginTest.testLoginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.ContactUsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactUsTest.testSuccessfulContactFormSubmission" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.ContactUsTest" />
+      <option name="METHOD_NAME" value="testSuccessfulContactFormSubmission" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing-Project" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.parabank.tests" />
       <option name="MAIN_CLASS_NAME" value="com.parabank.tests.LoginTest" />
-      <option name="METHOD_NAME" value="testLoginWithInvalidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,41 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.testSuccessfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Software-Testing-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parabank.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.RegistrationTest" />
-      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Software-Testing-Project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.ContactUsTest" />
+        <item itemvalue="TestNG.ContactUsTest.testSuccessfulContactFormSubmission" />
         <item itemvalue="TestNG.RegistrationTest" />
-        <item itemvalue="TestNG.RegistrationTest.testSuccessfulRegistration" />
-        <item itemvalue="TestNG.LoginTest.testLoginWithInvalidCredentials" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +181,9 @@
       <workItem from="1777766490040" duration="16000" />
       <workItem from="1777803679558" duration="12308000" />
       <workItem from="1777901712377" duration="9906000" />
+      <workItem from="1777972835520" duration="10975000" />
+      <workItem from="1777988255328" duration="2312000" />
+      <workItem from="1778005461566" duration="5611000" />
     </task>
     <servers />
   </component>
@@ -179,9 +193,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java</url>
-          <line>51</line>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/parabank/tests/ContactUsTest.java</url>
+          <line>52</line>
+          <properties class="com.parabank.tests.ContactUsTest" method="testSuccessfulContactFormSubmission">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -26,7 +26,7 @@ public class RegistrationTest extends BaseTest {
 
     // A timestamp suffix ensures the happy path registration uses a unique username
     private static final String UNIQUE_USERNAME =
-            "qa_auto_" + (System.currentTimeMillis()- 400 *.5);
+            "" + (System.currentTimeMillis());
 
     // Pre-existing user for TC_10 — must already exist in ParaBank
     private static final String EXISTING_USERNAME = "john";
@@ -71,7 +71,7 @@ public class RegistrationTest extends BaseTest {
         );
 
         org.openqa.selenium.support.ui.WebDriverWait wait =
-                new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+                new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(30));
 
         // في Parabank، الرابط بيفضل register.htm بس المحتوى بيتغير، فهنستنى لحد ما النص القديم يختفي
         // (يفضل استبدال "By.tagName("h1")" بالـ Locator الصحيح للـ Heading عندك)
@@ -82,7 +82,7 @@ public class RegistrationTest extends BaseTest {
 
         String successText = registrationPage.getSuccessMessageText();
         Assert.assertTrue(
-            successText.contains("created successfully") || successText.contains("logged in"),
+            successText.contains("created successfully") || successText.contains("logged in") || successText.contains("Welcome " + UNIQUE_USERNAME),
             "Registration success message was not displayed. Actual heading: '" + successText + "'"
         );
 

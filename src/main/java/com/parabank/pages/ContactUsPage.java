@@ -2,6 +2,7 @@
 package com.parabank.pages;
 
 import com.parabank.base.BasePage;
+import com.parabank.utils.ConfigReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -30,7 +31,7 @@ public class ContactUsPage extends BasePage {
     private static final By SEND_BUTTON              = By.cssSelector("input[value='Send to Customer Care']");
 
     // Success message shown after valid submission
-    private static final By SUCCESS_MESSAGE          = By.cssSelector(".title");
+    private static final By SUCCESS_MESSAGE          =  By.cssSelector("#rightPanel > p:nth-of-type(1)");
 
     // Field-level validation errors
     private static final By ERROR_NAME               = By.id("name.errors");
@@ -54,13 +55,13 @@ public class ContactUsPage extends BasePage {
      * The "contact" link is in the site footer and reliably available.
      */
     public void navigateTo() {
-        // Build the contact URL relative to the current base
-        String contactUrl = driver.getCurrentUrl()
-                                  .replaceAll("/parabank.*", "/parabank/contact.htm");
+        // Assuming ConfigManager reads from a properties file based on your environment
+        String baseUrl = ConfigReader.getBaseUrl();
+        String contactUrl = "https://parabank.parasoft.com/parabank/contact.htm";
+
         driver.get(contactUrl);
         logger.info("Navigated to Contact Us page.");
     }
-
     // =========================================================================
     // Action Methods
     // =========================================================================
