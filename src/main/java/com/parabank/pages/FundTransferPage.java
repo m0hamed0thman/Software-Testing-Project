@@ -4,6 +4,10 @@ package com.parabank.pages;
 import com.parabank.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 /**
  * Page Object for the ParaBank Transfer Funds Page.
@@ -76,18 +80,30 @@ public class FundTransferPage extends BasePage {
      *
      * @param index Zero-based dropdown index
      */
+
     public void selectFromAccountByIndex(int index) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(FROM_ACCOUNT_DROPDOWN, By.tagName("option")));
         selectByIndex(FROM_ACCOUNT_DROPDOWN, index);
     }
 
-    /**
-     * Selects the "To" account by its index in the dropdown.
-     *
-     * @param index Zero-based dropdown index
-     */
     public void selectToAccountByIndex(int index) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(TO_ACCOUNT_DROPDOWN, By.tagName("option")));
         selectByIndex(TO_ACCOUNT_DROPDOWN, index);
     }
+//    public void selectFromAccountByIndex(int index) {
+//        selectByIndex(FROM_ACCOUNT_DROPDOWN, index);
+//    }
+//
+//    /**
+//     * Selects the "To" account by its index in the dropdown.
+//     *
+//     * @param index Zero-based dropdown index
+//     */
+//    public void selectToAccountByIndex(int index) {
+//        selectByIndex(TO_ACCOUNT_DROPDOWN, index);
+//    }
 
     /**
      * Selects the "From" account by its visible text (account number).

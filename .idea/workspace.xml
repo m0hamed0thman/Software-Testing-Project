@@ -6,10 +6,140 @@
   <component name="ChangeListManager">
     <list default="true" id="f2d594de-af1d-4d2a-a9fd-5461cfe64040" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/ContactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/ContactUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/ContactUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/legends.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/css/theme.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/curvedLines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/customGraph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/dashboard-commons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/graph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/hashtable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/jquery.numberformatter-1.2.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/js/jquery.tablesorter.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/pages/CustomsGraphs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/pages/OverTime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/pages/ResponseTimes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/pages/Throughput.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/content/pages/icon-apache.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot-axislabels/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot-axislabels/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot-axislabels/jquery.flot.axislabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/js/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/NEWS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/PLUGINS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/flot.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/flot/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/extras.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/spinning.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_extras.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_spinning.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/metisMenu/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/metisMenu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/dist/css/sb-admin-2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/dist/js/sb-admin-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/less/sb-admin-2.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/sbadmin2-1.0.7/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/HTML_Report_100_Users/statistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/jmeter.log" beforeDir="false" afterPath="$PROJECT_DIR$/Performance/jmeter.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Performance/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manual/scenarios/ParaBank_Testing_Documentation.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/AccountOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/AccountOverviewPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/BillPaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/BillPaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parabank/pages/FundTransferPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parabank/pages/FundTransferPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parabank/tests/AccountOverviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parabank/tests/AccountOverviewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/logs/automation.log" afterDir="false" />
     </list>
@@ -37,39 +167,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml.executor": "Run",
-    "TestNG.ChromeTest.checkGoogleTitle.executor": "Run",
-    "TestNG.ChromeTest.executor": "Run",
-    "TestNG.ContactUsTest.executor": "Run",
-    "TestNG.ContactUsTest.testSuccessfulContactFormSubmission.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.LoginTest.testLoginWithInvalidCredentials.executor": "Run",
-    "TestNG.LoginTest.testSuccessfulLogin.executor": "Run",
-    "TestNG.ParaBankAutomationTest.checkGoogleTitle.executor": "Run",
-    "TestNG.RegistrationTest.executor": "Run",
-    "TestNG.RegistrationTest.testSuccessfulRegistration.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/o_o/IdeaProjects/Software-Testing-Project/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccountOverviewTest.testAccountNavigationLink.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccountOverviewTest.testAccountTableColumnsAreCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccountOverviewTest.testBalanceUpdateAfterTransfer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccountOverviewTest.testDefaultAccountIsDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AccountOverviewTest.testTotalBalanceMatchesSumOfAccounts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BillPaymentTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ChromeTest.checkGoogleTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ChromeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContactUsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContactUsTest.testSuccessfulContactFormSubmission.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FundTransferTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FundTransferTest.testValidFundTransfer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testLoginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.testSuccessfulLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ParaBankAutomationTest.checkGoogleTitle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.testSuccessfulRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/o_o/IdeaProjects/Software-Testing-Project/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="ContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.FundTransferTest">
+    <configuration name="AccountOverviewTest.testBalanceUpdateAfterTransfer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing-Project" />
       <extension name="coverage">
         <pattern>
@@ -78,25 +216,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.ContactUsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactUsTest.testSuccessfulContactFormSubmission" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Software-Testing-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parabank.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.ContactUsTest" />
-      <option name="METHOD_NAME" value="testSuccessfulContactFormSubmission" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.AccountOverviewTest" />
+      <option name="METHOD_NAME" value="testBalanceUpdateAfterTransfer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +225,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BillPaymentTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing-Project" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +234,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.LoginTest" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.BillPaymentTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -121,7 +242,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FundTransferTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing-Project" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +251,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.LoginTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.FundTransferTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundTransferTest.testValidFundTransfer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Software-Testing-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parabank.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parabank.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.FundTransferTest" />
+      <option name="METHOD_NAME" value="testValidFundTransfer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,17 +277,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Software-Testing-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parabank.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parabank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.parabank.tests.RegistrationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="TestNG.ContactUsTest" />
-        <item itemvalue="TestNG.ContactUsTest.testSuccessfulContactFormSubmission" />
-        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.FundTransferTest" />
+        <item itemvalue="TestNG./home/o_o/IdeaProjects/Software-Testing-Project/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.BillPaymentTest" />
+        <item itemvalue="TestNG.FundTransferTest.testValidFundTransfer" />
+        <item itemvalue="TestNG.AccountOverviewTest.testBalanceUpdateAfterTransfer" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +315,8 @@
       <workItem from="1777972835520" duration="10975000" />
       <workItem from="1777988255328" duration="2312000" />
       <workItem from="1778005461566" duration="5611000" />
+      <workItem from="1778036597461" duration="3261000" />
+      <workItem from="1778055805857" duration="3746000" />
     </task>
     <servers />
   </component>

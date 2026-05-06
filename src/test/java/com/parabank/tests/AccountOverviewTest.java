@@ -27,9 +27,9 @@ public class AccountOverviewTest extends BaseTest {
     private AccountOverviewPage accountOverviewPage;
 
     // Expected column headers per TC_14
+    // Expected column headers per TC_14
     private static final List<String> EXPECTED_HEADERS =
-            Arrays.asList("Account", "Balance", "Available Amount");
-
+            Arrays.asList("Account", "Balance*", "Available Amount");
     // =========================================================================
     // Pre-condition: Login before each test
     // =========================================================================

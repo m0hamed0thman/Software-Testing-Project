@@ -3,6 +3,7 @@ package com.parabank.pages;
 
 import com.parabank.base.BasePage;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -44,9 +45,12 @@ public class BillPaymentPage extends BasePage {
     private static final By SUCCESS_RESULT_PANEL    = By.id("billpayResult");
 
     // Validation error messages (field-level)
-    private static final By ERROR_PAYEE_NAME        = By.id("validationModel-name");
-    private static final By ERROR_ACCOUNT_MISMATCH  = By.id("validationModel-verifyAccount");
-    private static final By ERROR_AMOUNT            = By.id("validationModel-amount");
+    // Validation error messages (field-level)
+    // تم التعديل لاستخدام cssSelector لأن ParaBank يستخدم AngularJS (ng-show) ولا يستخدم id لرسائل الخطأ
+    // Validation error messages (field-level) - Using robust XPath based on DOM structure
+    private static final By ERROR_PAYEE_NAME        = By.xpath("//input[@name='payee.name']/ancestor::tr//span[@class='error']");
+    private static final By ERROR_ACCOUNT_MISMATCH  = By.xpath("//input[@name='verifyAccount']/ancestor::tr//span[@class='error']");
+    private static final By ERROR_AMOUNT            = By.xpath("//input[@name='amount']/ancestor::tr//span[@class='error']");
     private static final By ANY_ERROR               = By.cssSelector(".error");
 
     public BillPaymentPage(WebDriver driver) {
@@ -61,7 +65,14 @@ public class BillPaymentPage extends BasePage {
      * Navigates to the Bill Pay page by clicking its sidebar link.
      */
     public void navigateToBillPay() {
-        click(BILL_PAY_LINK);
+        try {
+            // المحاولة الأولى العادية
+            click(BILL_PAY_LINK);
+        } catch (StaleElementReferenceException e) {
+            // إذا حدث تحديث للصفحة وتلاشى العنصر (Stale)، سنلتقط الخطأ ونبحث عنه من جديد
+            logger.warn("Stale element encountered! The page refreshed. Retrying click on Bill Pay link...");
+            click(BILL_PAY_LINK); // المحاولة الثانية بعد تحديث الصفحة
+        }
         logger.info("Navigated to Bill Pay page.");
     }
 

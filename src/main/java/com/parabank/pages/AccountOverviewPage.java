@@ -5,7 +5,10 @@ import com.parabank.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 /**
@@ -36,7 +39,7 @@ public class AccountOverviewPage extends BasePage {
     private static final By TOTAL_ROW                = By.cssSelector("#accountTable tfoot tr");
 
     // Total balance value cell in the footer
-    private static final By TOTAL_BALANCE_CELL       = By.cssSelector("#accountTable tfoot tr td:nth-child(2)");
+    private static final By TOTAL_BALANCE_CELL       = By.xpath("//table[@id='accountTable']/tbody/tr[td/b[text()='Total']]/td[2]");
 
     // All individual account balance cells (2nd column in data rows)
     private static final By BALANCE_CELLS            = By.cssSelector("#accountTable tbody tr:not(:last-child) td:nth-child(2)");
@@ -100,8 +103,18 @@ public class AccountOverviewPage extends BasePage {
      * TC_13: a new user should have exactly 1 account.
      */
     public int getNumberOfAccounts() {
-        List<WebElement> rows = driver.findElements(ACCOUNT_ROWS);
-        return rows.size();
+        // إعداد انتظار صريح لمدة 10 ثوانٍ كحد أقصى
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        // ننتظر حتى يظهر على الأقل صف واحد يحتوي على رابط حساب (لنتأكد أن الـ AJAX انتهى)
+        // نستخدم XPath يستهدف الصفوف التي تحتوي على لينكات الحسابات فقط لتجنب عد صف "Total"
+        By accountRowsLocator = By.xpath("//table[@id='accountTable']/tbody/tr[td/a]");
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(accountRowsLocator));
+
+        // الآن يمكننا عد الحسابات بأمان
+        List<WebElement> accountRows = driver.findElements(accountRowsLocator);
+        return accountRows.size();
     }
 
     /**
@@ -130,10 +143,33 @@ public class AccountOverviewPage extends BasePage {
      * @return Sum of all account balances as a double
      */
     public double sumOfAllAccountBalances() {
-        List<WebElement> cells = driver.findElements(BALANCE_CELLS);
-        return cells.stream()
-                    .mapToDouble(cell -> parseCurrencyToDouble(cell.getText()))
-                    .sum();
+        double totalSum = 0.0;
+
+        // 1. إعداد انتظار صريح (Wait)
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        // 2. هذا الـ XPath يجلب فقط "العمود الثاني" (الرصيد) للصفوف التي تحتوي على "رابط" (يتجاهل صف المجموع)
+        By balanceCellsLocator = By.xpath("//table[@id='accountTable']/tbody/tr[td/a]/td[2]");
+
+        // ننتظر حتى تظهر الحسابات في الصفحة
+        wait.until(ExpectedConditions.visibilityOfElementLocated(balanceCellsLocator));
+
+        // 3. جلب جميع خلايا الأرصدة الفردية
+        List<WebElement> balanceElements = driver.findElements(balanceCellsLocator);
+
+        // 4. المرور عليها وجمعها
+        for (WebElement element : balanceElements) {
+            String balanceText = element.getText();
+
+            // تنظيف النص من علامة الدولار أو أي مسافات/فواصل (مثل: "$150.50" تصبح "150.50")
+            balanceText = balanceText.replace("$", "").replace(",", "").trim();
+
+            if (!balanceText.isEmpty()) {
+                totalSum += Double.parseDouble(balanceText);
+            }
+        }
+
+        return totalSum;
     }
 
     /**
@@ -175,4 +211,6 @@ public class AccountOverviewPage extends BasePage {
             return 0.0;
         }
     }
+
+
 }
